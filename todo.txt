@@ -1,0 +1,3 @@
+1. Redirect pages properly.
+2. Go throught the basics of HTML, CSS, PHP, MYSQL.
+3. Do some practicals on HTML, CSS OR do own modification in existing site.

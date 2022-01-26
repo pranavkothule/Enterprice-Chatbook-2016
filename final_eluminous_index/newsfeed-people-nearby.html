@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- Mirrored from thunder-team.com/friend-finder/newsfeed-people-nearby.html by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 16 Dec 2017 14:16:40 GMT -->
+<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="This is social network html5 template available in themeforest......" />
+		<meta name="keywords" content="Social Network, Social Media, Make Friends, Newsfeed, Profile Page" />
+		<meta name="robots" content="index, follow" />
+		<title>Nearby People | Find Local People</title>
+
+    <!-- Stylesheets
+    ================================================= -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet">
+    
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+	</head>
+  <body>
+
+ <!-- Header
+    ================================================= -->
+    <header id="header">
+      <nav class="navbar navbar-default navbar-fixed-top menu">
+        <div class="container">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index-register.html"><img src="images/logo1.png" alt="logo" /></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right main-menu">
+              <!--<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span><img src="images/down-arrow.png" alt="" /></span></a>
+                  <ul class="dropdown-menu newsfeed-home">
+                    <li><a href="index-register.html">Home Page</a></li>
+                  </ul>
+              </li>  -->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News<span><img src="images/down-arrow.png" alt="" /></span></a>
+                  <ul class="dropdown-menu newsfeed-home">
+                    <li><a href="newsfeed.html">Newsfeed</a></li>
+                    <li><a href="newsfeed-images.html">Images</a></li>
+                    <li><a href="newsfeed-videos.html">Videos</a></li>
+                  </ul>
+              </li>
+            
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Friends <span><img src="images/down-arrow.png" alt="" /></span></a>
+                <ul class="dropdown-menu login">
+                  <li><a href="newsfeed-people-nearby.html">Find Friends</a></li>
+                  <li><a href="newsfeed-friends.html">My friends</a></li>
+                </ul>
+              </li>  
+
+                    <li class="dropdown"><a href="newsfeed-messages.html">Messages</a></li> 
+
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings <span><img src="images/down-arrow.png" alt="" /></span></a>
+                <ul class="dropdown-menu login">
+                  <li><a href="edit-profile-basic.html">Edit Profile</a></li>
+                  <li><a href="edit-profile-password.html">Edit Password</a></li>
+          <li><a href="edit-profile-settings.html">Edit Settings</a></li>
+          <li><a href="edit-profile-interests.html">Edit Interests</a></li>
+          <li><a href="edit-profile-work-edu.html">Edit Work/Education</a></li>
+
+                </ul>
+              </li>  
+
+
+
+
+              <!--<li class="dropdown"><a href="contact.html">Contact</a></li>-->
+              <li class="dropdown"><a href="index-register.html">Logout</a></li>
+
+            </ul>
+            <form class="navbar-form navbar-right hidden-sm">
+              <div class="form-group">
+                <i class="icon ion-android-search"></i>
+                <input type="text" class="form-control" placeholder="Search friends, photos, videos">
+              </div>
+            </form>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+      </nav>
+    </header>
+    <!--Header End-->
+    
+    <div id="page-contents">
+    	<div class="container">
+    		<div class="row">
+
+    			<!-- Newsfeed Common Side Bar Left
+          ================================================= -->
+    			<div class="col-md-3 static">
+            <div class="profile-card">
+            	<img src="images/users/user-1.jpg" alt="user" class="profile-photo" />
+            	<h5><a href="timeline.html" class="text-white">Sarah Cruiz</a></h5>
+            	<a href="#" class="text-white"> Computer Engg.</a>
+            </div><!--profile card ends-->
+            <ul class="nav-news-feed">
+              <li><i class="icon ion-ios-paper"></i><div><a href="newsfeed.html">Newsfeed</a></div></li>
+              <li><i class="icon ion-ios-people"></i><div><a href="newsfeed-people-nearby.html">Find Friends</a></div></li>
+              <li><i class="icon ion-ios-people-outline"></i><div><a href="newsfeed-friends.html">Friends</a></div></li>
+              <li><i class="icon ion-chatboxes"></i><div><a href="newsfeed-messages.html">Messages</a></div></li>
+              <li><i class="icon ion-images"></i><div><a href="newsfeed-images.html">Images</a></div></li>
+              <li><i class="icon ion-ios-videocam"></i><div><a href="newsfeed-videos.html">Videos</a></div></li>
+            </ul><!--news-feed links ends-->
+            <div id="chat-block">
+              <div class="title">Chat online</div>
+              <ul class="online-users list-inline">
+                <li><a href="newsfeed-messages.html" title="Linda Lohan"><img src="images/users/user-2.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="Sophia Lee"><img src="images/users/user-3.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="John Doe"><img src="images/users/user-4.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <!-- <li><a href="newsfeed-messages.html" title="Alexis Clark"><img src="images/users/user-5.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="James Carter"><img src="images/users/user-6.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="Robert Cook"><img src="images/users/user-7.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="Richard Bell"><img src="images/users/user-8.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="Anna Young"><img src="images/users/user-9.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="Julia Cox"><img src="images/users/user-10.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li> -->
+              </ul>
+            </div><!--chat block ends-->
+          </div>
+    			<div class="col-md-7">
+
+            
+            <!-- Nearby People List
+            ================================================= -->
+            <div class="people-nearby">
+              <!--<div class="google-maps">
+                <div id="map" class="map"></div>
+              </div>-->
+              <div class="nearby-user">
+                <div class="row">
+                  <div class="col-md-2 col-sm-2">
+                    <img src="images/users/user-15.jpg" alt="user" class="profile-photo-lg" />
+                  </div>
+                  <div class="col-md-7 col-sm-7">
+                    <h5><a href="#" class="profile-link">Sophia Page</a></h5>
+                    <p>Software Engineer</p>
+                    <p class="text-muted">500m away</p>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <button class="btn btn-primary pull-right">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <div class="nearby-user">
+                <div class="row">
+                  <div class="col-md-2 col-sm-2">
+                    <img src="images/users/user-16.jpg" alt="user" class="profile-photo-lg" />
+                  </div>
+                  <div class="col-md-7 col-sm-7">
+                    <h5><a href="#" class="profile-link">Emma Johnson</a></h5>
+                    <p>Model at Fashion</p>
+                    <p class="text-muted">800m away</p>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <button class="btn btn-primary pull-right">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <div class="nearby-user">
+                <div class="row">
+                  <div class="col-md-2 col-sm-2">
+                    <img src="images/users/user-17.jpg" alt="user" class="profile-photo-lg" />
+                  </div>
+                  <div class="col-md-7 col-sm-7">
+                    <h5><a href="#" class="profile-link">Nora Wilson</a></h5>
+                    <p>Writer at Newspaper</p>
+                    <p class="text-muted">2.5km away</p>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <button class="btn btn-primary pull-right">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <div class="nearby-user">
+                <div class="row">
+                  <div class="col-md-2 col-sm-2">
+                    <img src="images/users/user-11.jpg" alt="user" class="profile-photo-lg" />
+                  </div>
+                  <div class="col-md-7 col-sm-7">
+                    <h5><a href="#" class="profile-link">Diana Amber</a></h5>
+                    <p>Student</p>
+                    <p class="text-muted">700m away</p>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <button class="btn btn-primary pull-right">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <div class="nearby-user">
+                <div class="row">
+                  <div class="col-md-2 col-sm-2">
+                    <img src="images/users/user-18.jpg" alt="user" class="profile-photo-lg" />
+                  </div>
+                  <div class="col-md-7 col-sm-7">
+                    <h5><a href="#" class="profile-link">Addison Thomas</a></h5>
+                    <p>Barber at Fashion</p>
+                    <p class="text-muted">1.5km away</p>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <button class="btn btn-primary pull-right">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <div class="nearby-user">
+                <div class="row">
+                  <div class="col-md-2 col-sm-2">
+                    <img src="images/users/user-19.jpg" alt="user" class="profile-photo-lg" />
+                  </div>
+                  <div class="col-md-7 col-sm-7">
+                    <h5><a href="#" class="profile-link">Jonathon Thompson</a></h5>
+                    <p>Fashion Designer</p>
+                    <p class="text-muted">2km away</p>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <button class="btn btn-primary pull-right">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <div class="nearby-user">
+                <div class="row">
+                  <div class="col-md-2 col-sm-2">
+                    <img src="images/users/user-14.jpg" alt="user" class="profile-photo-lg" />
+                  </div>
+                  <div class="col-md-7 col-sm-7">
+                    <h5><a href="#" class="profile-link">Olivia Steward</a></h5>
+                    <p>Creative Director</p>
+                    <p class="text-muted">2km away</p>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <button class="btn btn-primary pull-right">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <div class="nearby-user">
+                <div class="row">
+                  <div class="col-md-2 col-sm-2">
+                    <img src="images/users/user-20.jpg" alt="user" class="profile-photo-lg" />
+                  </div>
+                  <div class="col-md-7 col-sm-7">
+                    <h5><a href="#" class="profile-link">Elena Foster</a></h5>
+                    <p>Executive Officer</p>
+                    <p class="text-muted">4km away</p>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <button class="btn btn-primary pull-right">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <div class="nearby-user">
+                <div class="row">
+                  <div class="col-md-2 col-sm-2">
+                    <img src="images/users/user-13.jpg" alt="user" class="profile-photo-lg" />
+                  </div>
+                  <div class="col-md-7 col-sm-7">
+                    <h5><a href="#" class="profile-link">Brian Walton</a></h5>
+                    <p>Designer at Designer</p>
+                    <p class="text-muted">3km away</p>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <button class="btn btn-primary pull-right">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+              <div class="nearby-user">
+                <div class="row">
+                  <div class="col-md-2 col-sm-2">
+                    <img src="images/users/user-12.jpg" alt="user" class="profile-photo-lg" />
+                  </div>
+                  <div class="col-md-7 col-sm-7">
+                    <h5><a href="#" class="profile-link">Cris Haris</a></h5>
+                    <p>General Manager at Manager</p>
+                    <p class="text-muted">1km away</p>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <button class="btn btn-primary pull-right">Add Friend</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Newsfeed Common Side Bar Right
+          ================================================= -->
+    			<div class="col-md-2 static">
+            <div class="suggestions" id="sticky-sidebar">
+              <h4 class="grey">Suggestions</h4>
+              <div class="follow-user">
+                <img src="images/users/user-11.jpg" alt="" class="profile-photo-sm pull-left" />
+                <div>
+                  <h5><a href="timeline.html">Diana Amber</a></h5>
+                  <a href="#" class="text-green">Add friend</a>
+                </div>
+              </div>
+              <div class="follow-user">
+                <img src="images/users/user-12.jpg" alt="" class="profile-photo-sm pull-left" />
+                <div>
+                  <h5><a href="timeline.html">Cris Haris</a></h5>
+                  <a href="#" class="text-green">Add friend</a>
+                </div>
+              </div>
+              <div class="follow-user">
+                <img src="images/users/user-13.jpg" alt="" class="profile-photo-sm pull-left" />
+                <div>
+                  <h5><a href="timeline.html">Brian Walton</a></h5>
+                  <a href="#" class="text-green">Add friend</a>
+                </div>
+              </div>
+              <div class="follow-user">
+                <img src="images/users/user-14.jpg" alt="" class="profile-photo-sm pull-left" />
+                <div>
+                  <h5><a href="timeline.html">Olivia Steward</a></h5>
+                  <a href="#" class="text-green">Add friend</a>
+                </div>
+              </div>
+              <div class="follow-user">
+                <img src="images/users/user-15.jpg" alt="" class="profile-photo-sm pull-left" />
+                <div>
+                  <h5><a href="timeline.html">Sophia Page</a></h5>
+                  <a href="#" class="text-green">Add friend</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    		</div>
+    	</div>
+    </div>
+
+    <!-- Footer
+    ================================================= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-wrapper">
+            <div class="col-md-3 col-sm-3">
+              <a href="#"><img src="images/logo2.png" alt="" class="footer-logo" /></a>
+              <ul class="list-inline social-icons">
+                <li><a href="https://www.facebook.com/eluminoustech"><i class="icon ion-social-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/eluminous-technologies"><i class="icon ion-social-linkedin"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-2">
+            </div>
+            <div class="col-md-2 col-sm-2">
+                 <h5>Important Links</h5> 
+              <ul class="footer-links">
+                <li><a href="terms_and_conditions.html" target="_blank">Terms and Conditions</a></li>
+                <li><a href="privacy_policy.html" target="_blank">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-2">
+
+            </div>
+            <div class="col-md-3 col-sm-3">
+              <h5>Contact Us</h5>
+              <ul class="contact">
+                <li><i class="icon ion-ios-telephone-outline"></i>+91 8235724991</li>
+                <li><i class="icon ion-ios-email-outline"></i>eLchat@vsnl.com</li>
+                <li><i class="icon ion-ios-location-outline"></i>Nashik Road, Nashik</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>eLchat Team © 2018. All rights reserved</p>
+      </div>
+    </footer>
+    
+    <!--preloader-->
+    <div id="spinner-wrapper">
+      <div class="spinner"></div>
+    </div>
+    
+    
+
+    <!-- Scripts
+    ================================================= -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTMXfmDn0VlqWIyoOxK8997L-amWbUPiQ&amp;callback=initMap"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky-kit.min.js"></script>
+    <script src="js/jquery.scrollbar.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+
+<!-- Mirrored from thunder-team.com/friend-finder/newsfeed-people-nearby.html by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 16 Dec 2017 14:16:40 GMT -->
+</html>
